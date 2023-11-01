@@ -6,16 +6,16 @@
 [app]
 
 # (str) Title of your application
-title = Snack
+title = My Application
 
 # (str) Package name
-package.name = kaleeh
+package.name = myapp
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
 
 # (str) Source code where the main.py live
-source.dir = /build_apk
+source.dir = .
 
 # (list) Source files to include (leave empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas
@@ -84,7 +84,7 @@ osx.kivy_version = 2.2.0
 #
 
 # (bool) Indicate if the application should be fullscreen or not
-fullscreen = 1
+fullscreen = 0
 
 # (string) Presplash background color (for android toolchain)
 # Supported formats are: #RRGGBB #AARRGGBB or one of the following names:
